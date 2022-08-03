@@ -1,0 +1,37 @@
+﻿{
+    "manifest_version": 2,
+    "name": "Ruin_extension",
+    "version": "1.0",
+    "description": "Rubbish still paid!",
+    "icons": {
+        "128": "img/icon.png",
+        "64": "img/icon.png",
+        "16": "img/icon.png"
+    },
+    "browser_action": {
+        "default_icon": "img/icon.png",
+        "default_popup": "popup.html",
+        "default_title": "showHtmlPage"
+    },
+    "content_scripts":[
+        {
+            "js":["js/getDataMouse.js","js/jquery-3.6.0.min.js"],
+            "matches":["<all_urls>"],
+            "run_at": "document_start"
+        }
+    ],
+    "background":{
+        "scripts": ["js/contextMenus.js","js/jquery-3.6.0.min.js"],
+        "css": "css/changeWeb.css",
+        "persistent": false
+    },
+    "permissions":[
+        "contextMenus",
+        "tabs",
+        "<all_urls>",
+        "downloads",
+        "fontSettings"
+    ],
+    "homepage_url": "http://www.bing.com/",
+    "offline_enabled": true
+}

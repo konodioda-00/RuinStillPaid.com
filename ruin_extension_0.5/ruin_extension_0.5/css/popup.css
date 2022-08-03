@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'DinkieBitmap 9pxDemo';
+    src: local('DinkieBitmap 9pxDemo'), local('DinkieBitmap-9pxDemo'),
+        url('../font/DinkieBitmap-9pxDemo.woff2') format('woff2'),
+        url('../font/DinkieBitmap-9pxDemo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'DinkieBitmap 9pxDemo'!important;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    width: 400px;
+}
+
+p,#message {
+    margin: 0%;
+    padding: 1%;
+    position: relative;
+    font-weight: normal;
+    font-size: 150%;
+
+    border-style: ridge;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-color: rgb(255, 255, 255);
+}
+
+#windowBar {
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+
+#tag {
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+
+    border-style: ridge;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 0px;
+    border-color: rgb(255, 255, 255);
+    border-top-color: rgb(183, 183, 183);
+}
+
+#HcatImg,#HappleImg,#HbeansImg,#HcornImg
+,#HeggImg,#HfriesImg,#HmeatImg,#HoilImg,
+#HsaltImg,#HsugarImg,#HtoilePaperImg,#HtomatoImg,
+#HvegetableImg,#HwaterImg {
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    width: 394px;
+
+    border-style: ridge;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-color: rgb(255, 255, 255);
+}
+
+#botten {
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+
+    border-style: ridge;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    border-color: rgb(255, 255, 255);
+}

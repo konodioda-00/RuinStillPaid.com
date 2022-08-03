@@ -1,0 +1,59 @@
+/*载入字体*/
+@font-face {
+    font-family: 'DinkieBitmap 9pxDemo';
+    src: local('DinkieBitmap 9pxDemo'), local('DinkieBitmap-9pxDemo'),
+        url('../font/DinkieBitmap-9pxDemo.woff2') format('woff2'),
+        url('../font/DinkieBitmap-9pxDemo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body,h1,h2,h3,a{
+    font-family: 'DinkieBitmap 9pxDemo'!important;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+div:hover{
+    background-color: white;
+    border-style: solid;
+    border-width: 25px 5px 5px 5px;
+    -moz-border-image: url(https://s2.loli.net/2021/12/21/E6Nd2V5qZcHoMOB.jpg) 18 5 5 5 stretch stretch;
+    -webkit-border-image: url(https://s2.loli.net/2021/12/21/E6Nd2V5qZcHoMOB.jpg) 18 5 5 5 stretch stretch;
+    -o-border-image: url(https://s2.loli.net/2021/12/21/E6Nd2V5qZcHoMOB.jpg) 18 5 5 5 stretch stretch;
+    border-image: url(https://s2.loli.net/2021/12/21/E6Nd2V5qZcHoMOB.jpg) 18 5 5 5 stretch stretch;
+}
+
+/*天涯论坛网页CSS*/
+.box{
+    background-color: greenyellow;
+}
+.box:hover{
+    border-style:ridge;
+    border-width: 5px;
+    border-color: rgb(47, 255, 168);
+}
+
+/*微博网页版CSS*/
+.W_piccut_v{
+    background-color: greenyellow;
+}
+.W_piccut_v:hover{
+    border-style:ridge;
+    border-width: 5px;
+    border-color: rgb(47, 255, 168);
+}
+
+/*百度贴吧*/
+.BDE_Image{
+    background-color: greenyellow;
+}
+.BDE_Image:hover{
+    border-style:ridge;
+    border-width: 5px;
+    border-color: rgb(47, 255, 168);
+}
